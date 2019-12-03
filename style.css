@@ -5,7 +5,7 @@
 }
 
 .swiper-slide {
-  width: 600px;
+  width: 500px;
   height: 300px;
   background-color: yellow;
 }
@@ -19,5 +19,56 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 600px;
+  height: 200px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.avatar_img {
+  border-radius: 50%;
+  width: 250px;
+  height: 200px;
+}
+
+.personal_data ul {
+  list-style-type: none;
+  height: 200px;
+}
+
+.personal_data ul li {
+  height: 33%;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.progects p {
+  font-size: 22px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
