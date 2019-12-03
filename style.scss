@@ -1,12 +1,18 @@
 .swiper-container {
     width: 600px;
     height: 300px;
-    background-color: black;
+    margin:0 auto;
 }
+// .swiper-wrapper{
+//   width: 500px;
+//   height: 300px;
+//   margin:0 auto;
+// background-color: yellow;
+// }
 .swiper-slide{
     width: 500px;
     height: 300px;
-    background-color: yellow;
+    display: flex;
 }
 body{
      width: 650px;
@@ -62,4 +68,22 @@ body{
   .progects p{
     font-size: 22px;
     font-weight: bold;
+  }
+
+  iframe{
+    width: 500px;
+    height: 300px;
+    margin-left:50px;
+  }
+  .details_about_theyalow{
+    width: 40%;
+    background-color: #eee;
+  }
+  .yalow{
+    width: 100%;
+    height: 139%;
+  }
+  .repair{
+    width:100%;
+    height: 300px;
   }

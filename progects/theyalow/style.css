@@ -587,9 +587,27 @@ margin-bottom: 0px;
 line-height: 54px;
 margin-left: 203px;
 }
+.back_buttom{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom:150px;
+    background-color: #4f4f4f;
 
-
-
+}
+.mobile_button{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom:50px;
+    background-color: #4f4f4f;
+}
+.media_simulator{
+   margin-left:30%;
+   border:none;
+}
 
 
 
@@ -966,7 +984,7 @@ margin-top: -225px;
 .twitmessages ul{
 list-style-type: none;
 }
-..twitmessages ul li{
+.twitmessages ul li{
 	width: 284px;
 }
 #typemassage{
