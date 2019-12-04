@@ -1,16 +1,21 @@
 let mobile = document.querySelector('.mobile_button');
 let mobileframe = document.querySelector('.media_simulator');
 let main = document.querySelector('main');
+let body = document.querySelector('body');
 
-1847
 mobile.addEventListener('click', () =>{
-    mobileframe.style.height = '1847px';
-    main.style.display = 'none';
-    console.log(main.style.height)
-    
+    if (mobile.textContent === "Mobile"){
+        let mobileiframe = document.createElement('iframe');
+        body.prepend(mobileiframe);
+        mobileiframe.append(main);
+        mobileiframe.src = 'index.html'; 
+        mobileiframe.style.width = '640px';
+        mobileiframe.classList.add('media_simulator');
+        mobile.textContent = ('Desktop');
+    }
 });
 
 
 // document.querySelector('#iframe2').classList.toggle('change_width_rpr');
 // const btnMobile = document.querySelector('.mobile');
-// btnMobile.textContent = (btnMobile.textContent === "Desktop") ? "Mobile" : "Desktop";
+//  mobile.textContent = (mobile.textContent === "Desktop") ? "Mobile" : "Desktop";

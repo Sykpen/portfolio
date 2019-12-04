@@ -605,8 +605,10 @@ margin-left: 203px;
     background-color: #4f4f4f;
 }
 .media_simulator{
-   margin-left:30%;
-   border:none;
+    display: block;
+    margin:0 auto;
+    border:none;
+    height: 1553px;
 }
 
 
